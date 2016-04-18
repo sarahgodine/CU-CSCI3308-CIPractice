@@ -1,5 +1,4 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx
+language: c
+compiler: gcc
+script: make dep clean test
+sudo: required
